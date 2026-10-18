@@ -95,11 +95,6 @@ Next steps (recommended short roadmap)
 5. Train a small U‑Net on tiles (with augmentation), validate on held-out scenes, and compare deterministic baseline vs model.
 6. Add inference code that mosaics tile predictions back to full-scene georeferenced masks and preserves CRS/transform.
 
-How to contribute
-- Create a branch, add modules / tests, and open a PR with:
-  - code refactor (functions extracted from the notebook)
-  - tests that cover preprocessing and tile extraction
-  - short README update if you add new usage patterns
 
 Author
 - Muskan-Tarafder
