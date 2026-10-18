@@ -69,7 +69,6 @@ File overview
   - DiceLoss and IoU calculation
   - FloodDataset wrapper
   - visualization and example runs
-- (No CLI or python modules included in repo — recommended next step: extract stable functions to a small module like `poc_inference.py` and add unit tests.)
 
 Reproducibility & verification
 - Unit tests to add (recommended):
@@ -102,13 +101,11 @@ How to contribute
   - tests that cover preprocessing and tile extraction
   - short README update if you add new usage patterns
 
-Contact / author
-- Repo owner: Muskan-Tarafder
+Author
+- Muskan-Tarafder
 - For integration or productionization questions (e.g., running at scale, monitoring, model registry), tag the team and include a small sample scene and expected outputs.
 
 License
-- Add an appropriate license for your project. This PoC does not include a license by default.
+- This PoC does not include a license by default.
 
-Acknowledgements / references
-- Lee speckle filter — standard SAR preprocessing
-- U-Net — segmentation baseline
+
